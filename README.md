@@ -80,7 +80,7 @@ The application is designed to provide a user-friendly experience across:
 
 👩‍💻 Author
 
-**Maria Bibi**
+Maria Bibi
 
 Computer Science Student
 
