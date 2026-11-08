@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1F5F9;
+    color: #263445;
+}
+
+header {
+    background-color: #176B5B;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.summary {
+    background-color: #176B5B;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.summary h2 {
+    margin-bottom: 15px;
+}
+
+.summary h1 {
+    font-size: 35px;
+}
+
+.form-section,
+.expense-section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 10px #00000010;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #176B5B;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+select {
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 100%;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid #176B5B;
+}
+
+button {
+    background-color: #176B5B;
+    color: white;
+    border: none;
+    padding: 13px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #104D42;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.expense-item h3 {
+    margin-bottom: 7px;
+}
+
+.expense-item p {
+    color: #64748B;
+    font-size: 14px;
+}
+
+.expense-amount {
+    font-weight: bold;
+    color: #176B5B;
+    white-space: nowrap;
+}
+
+.delete-btn {
+    background-color: #DC3545;
+    padding: 8px 12px;
+    font-size: 13px;
+}
+
+.delete-btn:hover {
+    background-color: #B02A37;
+}
+
+.empty {
+    text-align: center;
+    color: #64748B;
+    padding: 20px;
+}
+
+footer {
+    background-color: #176B5B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 12px;
+    }
+
+    .expense-item {
+        flex-wrap: wrap;
+    }
+
+    .summary h1 {
+        font-size: 28px;
+    }
+}
